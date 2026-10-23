@@ -1,0 +1,30 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "TOPDesk MCP 1000",
+    "description": "TOPdesk MCP: adgang til sager, Knowledge Base, metadata og guidet Second Line-sagsoprettelse.",
+    "version": "1.0.1"
+  },
+  "host": "topdesk-mcp-tw0u.onrender.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/mcp": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Immediate Response"
+          }
+        },
+        "x-ms-agentic-protocol": "mcp-streamable-1.0",
+        "operationId": "InvokeServer",
+        "summary": "TOPDesk MCP 1000",
+        "description": "TOPdesk MCP: adgang til sager, Knowledge Base, metadata og guidet Second Line-sagsoprettelse."
+      }
+    }
+  },
+  "securityDefinitions": {},
+  "security": []
+}
